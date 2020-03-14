@@ -1,0 +1,9 @@
+name: "Hello World"
+author: "sammychinedu2ky"
+description: "Generate standard images required in a manifest.json file for you PWA"
+inputs:
+    filename:
+        description: 'icon name example: upload.png or image.jpg( the name of the image you want to use)'
+runs:
+  using: 'node12'
+  main: 'index.js'

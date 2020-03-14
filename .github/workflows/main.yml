@@ -1,0 +1,17 @@
+name: MY WorkFlow
+on: push
+jobs:
+    create_images:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+            - name: Send image to archive
+              uses: actions/upload-artifact@v1
+              with:
+                name: archive 
+                path: .
+            - name: manifest-image-resizer action
+              uses: sammychinedu2ky/manifest-image-resizer@master
+              with:
+                filename: upload.png #name of image you uploaded and also ensure you attach the image extension(ie png,jpg,ico etc)
