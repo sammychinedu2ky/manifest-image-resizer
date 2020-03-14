@@ -11,16 +11,20 @@ This action was designed to help generate images that you can use as icons in yo
 
 - And paste this:
 
-   `name: MY WorkFlow
-    
-    on: push
-    
-    jobs:
-        create_images:
-            runs-on: ubuntu-latest
-            steps:
-                
-                - name: Checkout repository
+   
+  
+
+     
+        
+        name: MY WorkFlow
+        on: push
+        
+        jobs:
+           create_images:
+                runs-on: ubuntu-latest
+                steps:
+
+               - name: Checkout repository
                   uses: actions/checkout@v2
                
                - name: Send image to archive
@@ -32,9 +36,10 @@ This action was designed to help generate images that you can use as icons in yo
                 - name: manifest-image-resizer action
                   uses: sammychinedu2ky/manifest-image-resizer@master
                   with:
-                    filename: upload.png #name of image you uploaded and also ensure you attatch the image extension(ie png,jpg,ico etc)`
+                    filename: upload.png #name of image you uploaded and also ensure you attatch the image extension(ie png,jpg,ico etc)
 
 ### The generated images would be saved in the artifact section with the name archive. And that's it 
  
 
 #### You can as well check my site to generate easily both the manifest and standard icons by clicking [here](http://manifest-gen.netlify.com/)
+
