@@ -38,7 +38,7 @@ This action was designed to help generate images that you can use as icons in yo
                   with:
                     filename: upload.png #name of image you uploaded and also ensure you attatch the image extension(ie png,jpg,ico etc)
 
-### The generated images would be saved in the artifact section with the name archive. And that's it 
+### The generated images would be saved in the artifact section with the name "generated-images". And that's it 
  
 
 #### You can as well check my site to generate easily both the manifest and standard icons by clicking [here](http://manifest-gen.netlify.com/)
