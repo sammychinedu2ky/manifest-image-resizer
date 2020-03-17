@@ -60,7 +60,7 @@ function resizeImages() {
             continueOnError: false
           }
 
-          const uploadResponse = artifactClient.uploadArtifact(generated-images', files, rootDirectory, option)
+          const uploadResponse = artifactClient.uploadArtifact('generated-images', files, rootDirectory, option)
         }
       });
   });
