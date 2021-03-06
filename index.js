@@ -15,7 +15,6 @@ async function download() {
   const downloadResponse = await artifactClient.downloadArtifact(artifactName, path, options)
   createFolder();
 }
-
 download()
 function createFolder() {
   fs.mkdir(`${dir}`, { recursive: true }, err => {
