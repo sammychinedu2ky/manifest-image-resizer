@@ -13,6 +13,6 @@
     "@actions/artifact": "^0.2.0",
     "@actions/core": "^1.2.3",
     "@actions/github": "^2.1.1",
-    "sharp": "^0.25.1"
+    "sharp": "^0.30.5"
   }
 }
