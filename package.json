@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@actions/artifact": "^0.2.0",
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^2.1.1",
     "sharp": "^0.25.1"
   }
